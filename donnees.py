@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 
 rng = np.random.default_rng(7)
-n = 5000
+n = 7000
 
 montant = np.round(rng.lognormal(6.2, 1.1, n), 2)
 anciennete = rng.integers(0, 120, n)
